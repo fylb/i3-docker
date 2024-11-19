@@ -1,0 +1,7 @@
+services:
+  i3:
+    build: .
+    devices: 
+      - /dev/snd
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
